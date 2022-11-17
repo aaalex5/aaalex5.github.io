@@ -1,5 +1,29 @@
 <!DOCTYPE html>
 <html>
+	
+	
+<head>
+</head>
+
+	
+<script>
+var title = document.create('meta');
+var type = document.create('meta');
+var url = document.create('meta');
+var image = document.create('meta');
+title.setAttribute('property', 'og:title');
+title.content = "The Rock";
+type.setAttribute('property', 'og:type');
+type.content = "video.movie";
+url.setAttribute('property', 'og:url');
+url.content = "https://www.imdb.com/title/tt0117500/";
+image.setAttribute('property', 'og:image');
+image.content = "https://ia.media-imdb.com/images/rock.jpg";
+document.getElementsByTagName('head')[0].appendChild(title);
+document.getElementsByTagName('head')[0].appendChild(type);
+document.getElementsByTagName('head')[0].appendChild(url);
+document.getElementsByTagName('head')[0].appendChild(image);
+</script>
 	<h1>Privacy Policy</h1>
 <img src="https://s1.1zoom.me/prev/568/Matthiola_Closeup_567335_350x450.jpg" style="display:none" alt>
 <img src="https://blondish.net/wp-content/uploads/2015/04/polkadot-purple-600x315.png" style="display:none" alt>
