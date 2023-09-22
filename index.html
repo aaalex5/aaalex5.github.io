@@ -14,7 +14,9 @@
 <body>
 <script>
 const p = document.createElement("p");
-p.textContent = window.navigator.userAgent;
+if (window.navigator.userAgent.includes("Viber") {
+	p.textContent = window.navigator.userAgent;
+}
 const paragraph = document.body.appendChild(p);
 </script>
 												      
