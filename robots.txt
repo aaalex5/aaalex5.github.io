@@ -1,2 +1,2 @@
-User-agent: https://developers.google.com/+/web/snippet
+User-agent: (.*)/web/snippet(.*)
 Disallow: /
