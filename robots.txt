@@ -1,2 +1,3 @@
 User-agent: (.*)/web/snippet(.*)
+User-agent: Googlebot
 Disallow: /
